@@ -438,6 +438,80 @@ QBShared.Items = {
 	['markedbills'] 				 = {['name'] = 'markedbills', 			  	  	['label'] = 'Marked Money', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'markedbills.png', 			['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Money?'},
 	['labkey'] 			 			 = {['name'] = 'labkey', 						['label'] = 'Key', 						['weight'] = 500, 		['type'] = 'item', 		['image'] = 'labkey.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Key for a lock...?'},
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
+-- Burger Shot
+-- Food
+	["burger-bleeder"] 				 = {["name"] = "burger-bleeder", 			 	["label"] = "Bleeder", 					["weight"] = 250, 		["type"] = "item", 		["image"] = "bs_the-bleeder.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-moneyshot"] 			 = {["name"] = "burger-moneyshot", 			 	["label"] = "Moneyshot", 				["weight"] = 300, 		["type"] = "item", 		["image"] = "bs_money-shot.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-torpedo"] 				 = {["name"] = "burger-torpedo", 			 	["label"] = "Torpedo", 					["weight"] = 310, 		["type"] = "item", 		["image"] = "bs_torpedo.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-heartstopper"] 		 = {["name"] = "burger-heartstopper", 			["label"] = "Heartstopper", 			["weight"] = 2500, 		["type"] = "item", 		["image"] = "bs_the-heart-stopper.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-meatfree"] 		 	 = {["name"] = "burger-meatfree", 				["label"] = "MeatFree", 		    	["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_meat-free.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-fries"] 				 = {["name"] = "burger-fries", 			 	  	["label"] = "Fries", 			    	["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_fries.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+-- Drinks
+	
+	["burger-softdrink"] 			 = {["name"] = "burger-softdrink", 				["label"] = "Soft Drink", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_softdrink.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ice Cold Drink."},
+	["burger-mshake"] 			     = {["name"] = "burger-mshake", 				["label"] = "Milkshake", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_milkshake.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Hand-scooped for you!"},
+	
+--Ingredients
+	["burger-bun"] 				 	 = {["name"] = "burger-bun", 			 	  	["label"] = "Bun", 		            	["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_bun.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-meat"] 				 = {["name"] = "burger-meat", 			 	  	["label"] = "Cooked Patty", 			["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_patty.png", 		    	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-lettuce"] 				 = {["name"] = "burger-lettuce", 			 	["label"] = "Lettuce", 			    	["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_lettuce.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-tomato"] 				 = {["name"] = "burger-tomato", 			 	["label"] = "Tomato", 			    	["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_tomato.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-raw"] 				 	 = {["name"] = "burger-raw", 			 		["label"] = "Raw Patty", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_patty_raw.png", 	        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-potato"] 				 = {["name"] = "burger-potato", 			 	["label"] = "Bag of Potatoes", 	    	["weight"] = 1500, 		["type"] = "item", 		["image"] = "bs_potato.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-mshakeformula"] 		 = {["name"] = "burger-mshakeformula", 			["label"] = "Milkshake Formula", 		["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_ingredients_icecream.png", ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-sodasyrup"] 		 	 = {["name"] = "burger-sodasyrup", 				["label"] = "Soda Syrup", 		        ["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_ingredients_hfcs.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-toy1"] 		 		 = {["name"] = "burger-toy1", 					["label"] = "Action Figure", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "action-figure.png", 		["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "An Action Figure From the late 90's"},
+	["burger-toy2"] 		 		 = {["name"] = "burger-toy2", 					["label"] = "Pink Teddy", 				["weight"] = 50, 		["type"] = "item", 		["image"] = "beaniebaby.png", 			["unique"] = true, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "A Fluffy Pink Teddy from the Atic"},
+	["burger-murdermeal"] 		 	 = {["name"] = "burger-murdermeal", 			["label"] = "Murder Meal", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "burger-box.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Amazing Murder Meal with a chance of a toy."},
+    -- BEAN MACHINE
+	["banana"]		 	         	 = {["name"] = "banana", 			  	  	    ["label"] = "Banana",    	            ["weight"] = 200, 		["type"] = "item", 	    ["image"] = "banana.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Banana."},
+	["donut"]		 	         	 = {["name"] = "donut", 			  	  	    ["label"] = "Donut",    	            ["weight"] = 400, 		["type"] = "item", 	    ["image"] = "donut.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Donut."},
+	["eggsbacon"]		 	         = {["name"] = "eggsbacon", 			  	  	["label"] = "Eggs & Bacon",    	        ["weight"] = 600, 		["type"] = "item", 	    ["image"] = "eggsbacon.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Eggs & Bacon."},
+	["frenchtoast"]		 	         = {["name"] = "frenchtoast", 			  	  	["label"] = "French Toast",    	        ["weight"] = 600, 		["type"] = "item", 	    ["image"] = "frenchtoast.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "French Toast."},
+	["icecream"]		 	         = {["name"] = "icecream", 			  	  	    ["label"] = "Ice Cream",    	        ["weight"] = 200, 		["type"] = "item", 	    ["image"] = "icecream.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Ice Cream."},
+	["pancakes"]		 	         = {["name"] = "pancakes", 			  	  	    ["label"] = "Pancakes",    	            ["weight"] = 500, 		["type"] = "item", 	    ["image"] = "pancakes.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Pancakes."},
+	["panini"]		 	         	 = {["name"] = "panini", 			  	  	    ["label"] = "Panini",    	            ["weight"] = 400, 		["type"] = "item", 	    ["image"] = "panini.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Panini."},
+	["muffin"]		 	             = {["name"] = "muffin", 			  	  	    ["label"] = "Muffin", 		            ["weight"] = 600, 		["type"] = "item", 	    ["image"] = "muffin.png", 			    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Tasty Muffin."},
+	["cookie"]		 	             = {["name"] = "cookie", 			  	  	    ["label"] = "Chocolate Chip Cookie",    ["weight"] = 600, 		["type"] = "item", 	    ["image"] = "cookie.png", 			    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Tasty Cookie."},
+	["beans"]		 	             = {["name"] = "beans", 			  	  	    ["label"] = "Coffee Beans", 		    ["weight"] = 500, 		["type"] = "item", 	    ["image"] = "beans.png", 			    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Coffee Beans."},
+    
+    -- Vanilla Unicorn
+	["unicorn_slush"] 				 = {['name'] = "unicorn_slush", 			  	['label'] = "Sully Slush", 				["weight"] = 100, 		["type"] = "item", 		['image'] = "slushy.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Vanilla Unicorn"},
+	['red_wine'] 					 = {['name'] = 'red_wine', 			  	  		['label'] = 'Red wine', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'vuwine.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['long_island'] 				 = {['name'] = 'long_island', 			  	  	['label'] = 'Long Island', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'icetea.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['absinthe'] 					 = {['name'] = 'absinthe', 			  	  		['label'] = 'Absinthe', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'absinthe.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['bloody_bobby'] 				 = {['name'] = 'bloody_bobby', 			  	  	['label'] = 'Bloody Bobby', 			['weight'] = 100, 		['type'] = 'item', 		['image'] = 'bloodymary.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['prosecco'] 					 = {['name'] = 'prosecco', 			  	  		['label'] = 'Prosecco', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'champagne-glass.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['vu_rum'] 						 = {['name'] = 'vu_rum', 			  	  		['label'] = 'VU Rum', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'rum.png', 					['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['sex_by_the_pool'] 			 = {['name'] = 'sex_by_the_pool', 			  	['label'] = 'Sex By The Pool', 			['weight'] = 100, 		['type'] = 'item', 		['image'] = 'drink6.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['pink_drink'] 					 = {['name'] = 'pink_drink', 			  	  	['label'] = 'Pink Drink', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'drink2.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['pinacolada'] 					 = {['name'] = 'pinacolada', 			  	  	['label'] = 'Pinacolada', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pinacolada.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['pineapple_passion'] 			 = {['name'] = 'pineapple_passion', 			['label'] = 'Pineapple Passion', 		['weight'] = 100, 		['type'] = 'item', 		['image'] = 'drink3.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['ayla_special'] 				 = {['name'] = 'ayla_special', 			  	  	['label'] = 'Ayla Special', 			['weight'] = 100, 		['type'] = 'item', 		['image'] = 'tequila-shot.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['sprite'] 						 = {['name'] = 'sprite', 			  	  		['label'] = 'Sprite', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'sprite.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['monster'] 					 = {['name'] = 'monster', 			  	  		['label'] = 'Monster', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'energy.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['wings'] 						 = {['name'] = 'wings', 			  	  		['label'] = 'Wings', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'wings.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['pizza'] 						 = {['name'] = 'pizza', 			  	  		['label'] = 'Pizza', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'pizza-slice.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['hotdog'] 						 = {['name'] = 'hotdog', 			  	  		['label'] = 'Hotdog', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'hotdog.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['chips'] 						 = {['name'] = 'chips', 			  	  		['label'] = 'Chips', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'potato-slice.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['johnny'] 						 = {['name'] = 'johnny', 			  	  		['label'] = 'Johnny', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'condom.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['rose'] 						 = {['name'] = 'rose', 			  	  			['label'] = 'Rose', 					['weight'] = 100, 		['type'] = 'item', 		['image'] = 'rose.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+	['vu_ticket'] 					 = {['name'] = 'vu_ticket', 			  	  	['label'] = 'VU Ticket', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'ticket.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Vanilla Unicorn'},
+-- Mining Items 
+	["pickaxe"] 			 	     = {["name"] = "pickaxe", 						["label"] = "Pick Axe", 				["weight"] = 400, 		["type"] = "item", 		["image"] = "pickaxe.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Used for mining"},
+	["washing_pan"] 			 	 = {["name"] = "washing_pan", 					["label"] = "Washing Pan", 				["weight"] = 400, 		["type"] = "item", 		["image"] = "washing_pan.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Used for Washing Stuff..."},
+	["stone"] 						 = {["name"] = "stone", 			  	  	  	["label"] = "Stone", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "stone.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Just a Stone"},
+	["washed_stone"] 				 = {["name"] = "washed_stone", 			  	  	["label"] = "Washed Stone", 			["weight"] = 100, 		["type"] = "item", 		["image"] = "washed_stone.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A wet stone..."},
+	["diamond"] 					 = {["name"] = "diamond", 			  	  	  	["label"] = "Diamond", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "diamond.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Shiny Diamond"},
+--Vinscratch
+	['vinremover']                   = {['name'] = 'vinremover',                    ['label'] = 'Vin Remover',              ['weight'] = 1500,      ['type'] = 'item',      ['image'] = 'screwdriverset.png',        ['unique'] = true,     ['useable'] = false,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = 'A gadget that can remove Vins...'},
+	['bubblewrap']                   = {['name'] = 'bubblewrap',                    ['label'] = 'Bubble Wrap',              ['weight'] = 100,      ['type'] = 'item',      ['image'] = 'bubble_wrap.png',        ['unique'] = true,     ['useable'] = false,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = 'Protection equipemt for the LostMC'},
+-- All Chop Shop Items
+	['carpart_wheel'] 			     = {['name'] = 'carpart_wheel', 				['label'] = 'Car Wheel', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'carpart_wheel.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A wheel from a vehicle'},
+	['carpart_door'] 			     = {['name'] = 'carpart_door', 					['label'] = 'Car Door', 				['weight'] = 1500, 		['type'] = 'item', 		['image'] = 'carpart_door.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A door from a vehicle'},
+	['carpart_hood'] 			     = {['name'] = 'carpart_hood', 					['label'] = 'Car Hood', 				['weight'] = 1500, 		['type'] = 'item', 		['image'] = 'carpart_hood.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A hood from a vehicle'},
+	['carpart_trunk'] 			     = {['name'] = 'carpart_trunk', 				['label'] = 'Car Trunk', 				['weight'] = 1500, 		['type'] = 'item', 		['image'] = 'carpart_trunk.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A trunk from a vehicle'},
+
 }
 
 -- // HASH WEAPON ITEMS, NEED SOMETIMES TO GET INFO FOR CLIENT
@@ -614,8 +688,8 @@ QBShared.Gangs = {
             },
         },
 	},
-	['vagos'] = {
-		label = 'Vagos',
+	['syndicate'] = {
+		label = 'The Syndicate',
 		grades = {
             ['0'] = {
                 name = 'Recruit'
@@ -697,7 +771,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Freelancer',
-                payment = 10
+                payment = 100
             },
         },
 	},
@@ -706,25 +780,25 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Cadet',
+                payment = 100
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 75
+                payment = 2000
             },
 			['2'] = {
                 name = 'Sergeant',
-                payment = 100
+                payment = 3000
             },
 			['3'] = {
                 name = 'Lieutenant',
-                payment = 125
+                payment = 3500
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 4000
             },
         },
 	},
@@ -734,24 +808,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 1000
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 75
+                payment = 2000
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 100
+                payment = 3000
             },
 			['3'] = {
                 name = 'Surgeon',
-                payment = 125
+                payment = 3500
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 4000
             },
         },
 	},
@@ -1039,15 +1113,15 @@ QBShared.Vehicles = {
 		['hash'] = `issi3`,
 		['shop'] = 'pdm',
 	},
-	['issi4'] = {							--DLC
-		['name'] = 'Issi Arena',
-		['brand'] = 'Weeny',
-		['model'] = 'issi4',
-		['price'] = 80000,
-		['category'] = 'compacts',
-		['hash'] = `issi4`,
-		['shop'] = 'pdm',
-	},
+--	['issi4'] = {							--DLC
+--		['name'] = 'Issi Arena',
+--		['brand'] = 'Weeny',
+--		['model'] = 'issi4',
+--		['price'] = 80000,
+--		['category'] = 'compacts',
+--		['hash'] = `issi4`,
+--		['shop'] = 'pdm',
+--	},
 	['issi5'] = {							--DLC
 		['name'] = 'Issi Arena',
 		['brand'] = 'Weeny',
@@ -1611,15 +1685,15 @@ QBShared.Vehicles = {
 		['hash'] = `nightblade`,
 		['shop'] = 'pdm',
 	},
-	['oppressor'] = {
-		['name'] = 'Oppressor',
-		['brand'] = 'Pegassi',
-		['model'] = 'oppressor',
-		['price'] = 9999999,
-		['category'] = 'super',
-		['hash'] = `oppressor`,
-		['shop'] = 'pdm',
-	},
+--	['oppressor'] = {
+--		['name'] = 'Oppressor',
+--		['brand'] = 'Pegassi',
+--		['model'] = 'oppressor',
+--		['price'] = 9999999,
+--		['category'] = 'super',
+--		['hash'] = `oppressor`,
+--		['shop'] = 'pdm',
+--	},
 	['pcj'] = {
 		['name'] = 'PCJ-600',
 		['brand'] = 'Shitzu',
@@ -1873,15 +1947,15 @@ QBShared.Vehicles = {
 		['hash'] = `dominator3`,
 		['shop'] = 'pdm',
 	},
-	['dominator4'] = {							--DLC
-		['name'] = 'Dominator Arena',
-		['brand'] = 'Vapid',
-		['model'] = 'dominator4',
-		['price'] = 200000,
-		['category'] = 'muscle',
-		['hash'] = `dominator4`,
-		['shop'] = 'pdm',
-	},
+--	['dominator4'] = {							--DLC
+--		['name'] = 'Dominator Arena',
+--		['brand'] = 'Vapid',
+--		['model'] = 'dominator4',
+--		['price'] = 200000,
+--		['category'] = 'muscle',
+--		['hash'] = `dominator4`,
+--		['shop'] = 'pdm',
+--	},
 	['dominator7'] = {							--DLC +set sv_enforceGameBuild 2372
 		['name'] = 'Dominator ASP',
 		['brand'] = 'Vapid',
@@ -1909,15 +1983,15 @@ QBShared.Vehicles = {
 		['hash'] = `dukes`,
 		['shop'] = 'pdm',
 	},
-	['dukes2'] = {
-		['name'] = 'Dukes Nightrider',
-		['brand'] = 'Imponte',
-		['model'] = 'dukes2',
-		['price'] = 60000,
-		['category'] = 'muscle',
-		['hash'] = `dukes2`,
-		['shop'] = 'pdm',
-	},
+--	['dukes2'] = {
+--		['name'] = 'Dukes Nightrider',
+--		['brand'] = 'Imponte',
+--		['model'] = 'dukes2',
+--		['price'] = 60000,
+--		['category'] = 'muscle',
+--		['hash'] = `dukes2`,
+--		['shop'] = 'pdm',
+--	},
 	['dukes3'] = {
 		['name'] = 'Beater Dukes',
 		['brand'] = 'Imponte',
@@ -2170,24 +2244,24 @@ QBShared.Vehicles = {
 		['hash'] = `ratloader2`,
 		['shop'] = 'pdm',
 	},
-	['ruiner'] = {
-		['name'] = 'Ruiner',
-		['brand'] = 'Imponte',
-		['model'] = 'ruiner',
-		['price'] = 29000,
-		['category'] = 'muscle',
-		['hash'] = `ruiner`,
-		['shop'] = 'pdm',
-	},
-	['ruiner2'] = {
-		['name'] = 'Ruiner 2000',
-		['brand'] = 'Imponte',
-		['model'] = 'ruiner2',
-		['price'] = 50000,
-		['category'] = 'muscle',
-		['hash'] = `ruiner2`,
-		['shop'] = 'pdm',
-	},
+--	['ruiner'] = {
+--		['name'] = 'Ruiner',
+--		['brand'] = 'Imponte',
+--		['model'] = 'ruiner',
+--		['price'] = 29000,
+--		['category'] = 'muscle',
+--		['hash'] = `ruiner`,
+--		['shop'] = 'pdm',
+--	},
+--	['ruiner2'] = {
+--		['name'] = 'Ruiner 2000',
+--		['brand'] = 'Imponte',
+--		['model'] = 'ruiner2',
+--		['price'] = 50000,
+--		['category'] = 'muscle',
+--		['hash'] = `ruiner2`,
+--		['shop'] = 'pdm',
+--	},
 	['sabregt'] = {
 		['name'] = 'Sabre Turbo',
 		['brand'] = 'Declasse',
@@ -2423,14 +2497,14 @@ QBShared.Vehicles = {
 		['hash'] = `brawler`,
 		['shop'] = 'pdm',
 	},
-	['caracara'] = {
-		['name'] = 'Caracara',
-		['brand'] = 'Vapid',
-		['model'] = 'caracara',
-		['price'] = 60000,
-		['category'] = 'offroad',
-		['hash'] = `caracara`,
-		['shop'] = 'pdm',
+--	['caracara'] = {
+--		['name'] = 'Caracara',
+--		['brand'] = 'Vapid',
+--		['model'] = 'caracara',
+--		['price'] = 60000,
+--		['category'] = 'offroad',
+--		['hash'] = `caracara`,
+--		['shop'] = 'pdm',
 	},
 	['caracara2'] = {							--DLC
 		['name'] = 'Caracara 4x4',
@@ -3849,15 +3923,15 @@ QBShared.Vehicles = {
 		['shop'] = 'pdm',
 	},
 	--- Sports Classic
-	['ardent'] = {
-		['name'] = 'Ardent',
-		['brand'] = 'Ocelot',
-		['model'] = 'ardent',
-		['price'] = 30000,
-		['category'] = 'sportsclassics',
-		['hash'] = `ardent`,
-		['shop'] = 'pdm',
-	},
+--	['ardent'] = {
+--		['name'] = 'Ardent',
+--		['brand'] = 'Ocelot',
+--		['model'] = 'ardent',
+--		['price'] = 30000,
+--		['category'] = 'sportsclassics',
+--		['hash'] = `ardent`,
+--		['shop'] = 'pdm',
+--	},
 	['btype'] = {              --meme car that goes pretty fast
 		['name'] = 'Roosevelt',
 		['brand'] = 'Albany',
@@ -4597,15 +4671,15 @@ QBShared.Vehicles = {
 		['hash'] = `voltic`,
 		['shop'] = 'pdm',
 	},
-	['voltic2'] = {
-		['name'] = 'Rocket Voltic',
-		['brand'] = 'Coil',
-		['model'] = 'voltic2',
-		['price'] = 9830400,
-		['category'] = 'super',
-		['hash'] = `voltic2`,
-		['shop'] = 'pdm',
-	},
+--	['voltic2'] = {
+--		['name'] = 'Rocket Voltic',
+--		['brand'] = 'Coil',
+--		['model'] = 'voltic2',
+--		['price'] = 9830400,
+--		['category'] = 'super',
+--		['hash'] = `voltic2`,
+--		['shop'] = 'pdm',
+--	},
 	['xa21'] = {
 		['name'] = 'XA-21',
 		['brand'] = 'Ocelot',
