@@ -2505,7 +2505,7 @@ QBShared.Vehicles = {
 --		['category'] = 'offroad',
 --		['hash'] = `caracara`,
 --		['shop'] = 'pdm',
-	},
+--	},
 	['caracara2'] = {							--DLC
 		['name'] = 'Caracara 4x4',
 		['brand'] = 'Vapid',
